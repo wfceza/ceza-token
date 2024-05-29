@@ -7,7 +7,7 @@ import { db, auth } from "./Firebase"
 export default function Main() {
     return (
         <div>
-            
+            <h1>This is ,ain</h1>
         </div>
     )
 }
