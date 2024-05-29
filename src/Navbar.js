@@ -19,7 +19,7 @@ export default function Navbar () {
                 <Link className="home" to="/">Home</Link>
                 {!user ? ( <Link className="login" to="/login">Login</Link>
                  )  : (
-                <Link className="createpost" to="/createpost">Create Post</Link>
+                <Link className="createpost" to="/metaverse">Metaverse </Link>
                  )}
             </div>
 
