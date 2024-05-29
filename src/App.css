@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+
+body {
+box-sizing: border-box;
+overflow-x: hidden;
+font-family: 'Playfair Display';
+margin: 0px;
+}
+
+.navbar {
+background-color: rgb(230, 145, 84);
+text-decoration: none;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
+}
+
+.home, .createpost, .login {
+text-decoration: none;
+font-size: 20px;
+color: white;
+transition: all 1.3s ease-in-out;
+cursor: pointer;
+font-weight: bold;
+}
+
+
+.home:hover, .createpost:hover, .login:hover {
+text-decoration: underline 2px solid;
+}
+
+.homeLogin {
+display: flex;
+justify-content: space-between;
+gap: 10px;
+}
+
+.userInfo {
+display: flex;
+align-items: center;
+color: white;
+font-family: 'Times New Roman';
+justify-content: space-between;
+gap: 10px;
+}
+
+button {
+border: none;
+padding: 5px 10px;
+background-color: rgb(221, 100, 13)
+}
+
+
+
+.loginPhoto {
+margin-right: -10px;
+border-radius: 10px;
+}
+
+.username {
+font-weight: bold;
+font-family: 'Playfair Display'
+}
+
+.signOut {
+color: white;
+cursor: pointer;
+transition: all .3s ease-in-out;
+}
+
+.signOut:hover {
+color: rgb(221, 100, 13);
+background-color: white;
+}
+
+
+.forms {
+background-color: rgb(230, 145, 84);
+}
+.postField {
+margin-top: 20px;
+padding: 20px;
+}
+
+input, textarea {
+display: block;
+margin: 0px auto;
+}
+
+input {
+width: 50%;
+height: 30px;
+border-top-right-radius: 10px;
+border: solid 1px rgb(230, 145, 84);
+}
+
+textarea {
+width: 50%;
+height: 100px;
+border-top-right-radius: 10px;
+border: solid 1px rgb(230, 145, 84);
+}
+
+.submitBtn {
+background-color: rgb(221, 100, 13);
+color: white;
+cursor: pointer;
+transition: all .3s ease-in-out;
+}
+
+.submitBtn:hover {
+color: rgb(221, 100, 13);
+background-color: white;
+}
+
+.signIn {
+text-align: center;
+font-family: 'Playfair Display';
+
+}
+.signInBtn {
+padding: 10px;
+margin: 0px auto;
+display: block;
+color: white;
+cursor: pointer;
+transition: all .3s ease-in-out;
+}
+
+.signInBtn:hover {
+color: rgb(221, 100, 13);
+background-color: rgba(0, 0, 0, 0.845);
+}
