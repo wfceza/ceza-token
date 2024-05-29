@@ -7,7 +7,7 @@ import { db, auth } from "./Firebase"
 export default function Main() {
     return (
         <div className="main">
-            <h1>WELCOME TO THE METAVERSE</h1>
+            <h1 className="mainHeader">WELCOME TO THE METAVERSE</h1>
         </div>
     )
 }

@@ -134,3 +134,9 @@ transition: all .3s ease-in-out;
 color: rgb(221, 100, 13);
 background-color: rgba(0, 0, 0, 0.845);
 }
+
+.mainHeader {
+    text-align: center ;
+    position: left;
+}
+
